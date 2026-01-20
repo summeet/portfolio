@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+/* Custom Utilities for Premium Fintech Look */
+@theme {
+  --color-primary: #1e293b;
+  /* Slate 800 - Deep Blue/Grey */
+  --color-secondary: #64748b;
+  /* Slate 500 - Muted Text */
+  --color-accent: #10b981;
+  /* Emerald 500 - Success/Growth Green */
+  --color-danger: #ef4444;
+  /* Drawdown Red */
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  --spacing-container: 1280px;
+}
